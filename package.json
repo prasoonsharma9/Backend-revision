@@ -1,0 +1,26 @@
+{
+  "name": "backend-revision",
+  "version": "1.0.0",
+  "description": "Gaining more backend experience through hands-on practice.",
+  "keywords": [
+    "backend",
+    "learning",
+    "revision",
+    "more-skilled"
+  ],
+  "homepage": "https://github.com/prasoonsharma9/Backend-revision#readme",
+  "bugs": {
+    "url": "https://github.com/prasoonsharma9/Backend-revision/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasoonsharma9/Backend-revision.git"
+  },
+  "license": "ISC",
+  "author": "Prasoon Kumar Sharma",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
