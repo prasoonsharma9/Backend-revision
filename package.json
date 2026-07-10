@@ -21,10 +21,12 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",
