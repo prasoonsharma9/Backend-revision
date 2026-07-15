@@ -7,14 +7,15 @@
       "name": "Run nodemon",
       "runtimeExecutable": "nodemon",
       "runtimeArgs": [
-        "-r", "dotenv/config",
+        "-r",
+        "dotenv/config",
         "--experimental-json-modules",
         "src/server.js"
       ],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
-      "restart": true,
+      "restart": true
     }
   ]
 }
