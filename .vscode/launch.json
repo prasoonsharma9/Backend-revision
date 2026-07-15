@@ -13,7 +13,7 @@
         "src/server.js"
       ],
       "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal",
+      "console": "internalConsole",
       "internalConsoleOptions": "neverOpen",
       "restart": true
     }
