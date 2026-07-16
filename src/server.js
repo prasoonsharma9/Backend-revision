@@ -24,7 +24,7 @@ connectDB()
     });
 
     app.listen(port, () => {
-      console.log(`Server is listenning on port : ${port}`);
+      console.log(`Server is listening on port : ${port}`);
     });
   })
   .catch((error) => {
