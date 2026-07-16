@@ -1,9 +1,10 @@
 import mongoose from "mongoose";
-import { DB_NAME } from "./constants.js";
 import dotenv from "dotenv";
 import express from "express";
 import connectDB from "./db/index.js";
 import dns from "dns";
+import { app } from "./app.js"
+
 
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
@@ -11,7 +12,6 @@ dotenv.config({
   path: "./.env",
 });
 
-const app = express();
 const port = process.env.PORT || 8000;
 
 connectDB()
@@ -32,8 +32,8 @@ connectDB()
   });
 
 /*
-import express from "express";
-const app = express();
+import { app } from "./app.js"
+import { DB_NAME } from "./constants.js";
 
 ;(async () => {
     try {
